@@ -3,7 +3,7 @@
 require_relative 'lib/legion/extensions/personality/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'legion-extensions-personality'
+  spec.name          = 'lex-personality'
   spec.version       = Legion::Extensions::Personality::VERSION
   spec.authors       = ['Matthew Iverson']
   spec.email         = ['matt@legionIO.com']
@@ -17,4 +17,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.metadata['rubygems_mfa_required'] = 'true'
+  spec.add_development_dependency 'legion-gaia'
 end
